@@ -80,7 +80,7 @@ except UserAgentError:
     ua = response.decode().split('\n')
     ua = list(filter(None, ua))
 
-PROXY = GoodProxy.txt
+PROXY = None
 driver = None
 status = None
 driver_path = None
